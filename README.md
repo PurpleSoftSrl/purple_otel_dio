@@ -303,34 +303,37 @@ single line of manual instrumentation in `ApiClient`.
 
 ---
 
+
 ## Enterprise Support
 
 This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house based in Monza, Milano, and Lugano (Switzerland), building production-grade software since 2017.
 
-### We solve the impossible
+### We don't just write packages. We build ecosystems.
 
-When off-the-shelf solutions aren't enough, our team of elite engineers steps in. We specialize in:
+Our open-source portfolio spans **50+ packages** across the full software stack. If you're using Dart or Flutter at scale, chances are you're already running our code.
 
-- **Observability & DevOps** — OpenTelemetry, distributed tracing, APM, log aggregation, cloud-native monitoring
-- **Flutter & Dart** — high-performance mobile, web, and desktop applications with custom native plugins
-- **Cloud-Native Architecture** — microservices, event-driven systems, Kubernetes, serverless
-- **AI & Data Science** — machine learning pipelines, big data analytics, LLM integration
-- **Enterprise Data Migration** — SAP S/4HANA, ERP transitions, complex ETL at scale
-- **Custom Software** — platforms, dashboards, automation, integrations
+| Domain | Packages | Highlights |
+|--------|----------|------------|
+| **Observability** | 7 | Full OpenTelemetry SDK (traces, logs, metrics), W3C propagation, OTLP export, enterprise structured logger with file rotation |
+| **AI & ML Inference** | 15 | ONNX runtime bindings, Google Litert/LiteRT/MediaPipe integration, AI federation engine (Synesis), on-device LLM support |
+| **Speech** | 16 | Speech-to-Text (STT) for Android & Windows, Text-to-Speech (TTS) with Kokoro engine across all 6 platforms |
+| **Payments** | 2 | SumUp POS terminal integration for Flutter — card-present payments, NFC, receipt printing |
+| **Caching** | 2 | High-performance in-memory cache with journaling, Dio HTTP cache interceptor |
+| **Code Generation** | 1 | OpenAPI/Swagger → Dart/Flutter client generator |
+| **Platform** | 2 | iOS Live Activities, multilingual pluralization engine |
 
-### Trusted by industry leaders
+### We solve what others can't
 
-Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran,** and 50+ other enterprises across Europe.
+When your project hits a wall — a native API that Flutter can't reach, an ONNX model that won't fit on device, a trace pipeline that drops spans under load, a speech engine that needs custom wake-word detection — our team of elite engineers steps in with solutions that work in production.
 
-### Need help with your observability stack?
+### Trusted by 50+ enterprises
 
-Whether you're deploying OpenTelemetry at enterprise scale, building custom instrumentation for a complex microservice architecture, or need someone who can debug a production incident at 2AM — **we've been there.**
+Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran, BCC,** and dozens more across banking, manufacturing, energy, and public sector.
 
-[Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)
+### Need the impossible solved?
 
----
-
-## License
+[Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
