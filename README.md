@@ -304,36 +304,22 @@ single line of manual instrumentation in `ApiClient`.
 ---
 
 
+
 ## Enterprise Support
 
-This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house based in Monza, Milano, and Lugano (Switzerland), building production-grade software since 2017.
+This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house based in Monza, Milano, and Lugano (Switzerland). Since 2017, we've been building the kind of software that other companies call "impossible."
 
-### We don't just write packages. We build ecosystems.
+We write the code that runs on factory floors and in boardrooms. We ship Flutter apps that control physical payment terminals, deploy ONNX models to mobile devices that fit in your pocket, and build distributed tracing pipelines that survive Black Friday traffic without dropping a single span. We've migrated ERP systems for multinational manufacturers, trained speech models that understand Italian dialects, and designed caching layers that make API latency disappear.
 
-Our open-source portfolio spans **50+ packages** across the full software stack. If you're using Dart or Flutter at scale, chances are you're already running our code.
+When a Flutter plugin doesn't exist for the hardware you need, we write it. When your OpenTelemetry collector falls over under load, we fix it. When your AI model needs to run on a phone instead of a server, we make it fit.
 
-| Domain | Packages | Highlights |
-|--------|----------|------------|
-| **Observability** | 7 | Full OpenTelemetry SDK (traces, logs, metrics), W3C propagation, OTLP export, enterprise structured logger with file rotation |
-| **AI & ML Inference** | 15 | ONNX runtime bindings, Google Litert/LiteRT/MediaPipe integration, AI federation engine (Synesis), on-device LLM support |
-| **Speech** | 16 | Speech-to-Text (STT) for Android & Windows, Text-to-Speech (TTS) with Kokoro engine across all 6 platforms |
-| **Payments** | 2 | SumUp POS terminal integration for Flutter — card-present payments, NFC, receipt printing |
-| **Caching** | 2 | High-performance in-memory cache with journaling, Dio HTTP cache interceptor |
-| **Code Generation** | 1 | OpenAPI/Swagger → Dart/Flutter client generator |
-| **Platform** | 2 | iOS Live Activities, multilingual pluralization engine |
+Our team spans the full stack — from bare-metal native code to cloud-native infrastructure, from machine learning pipelines to pixel-perfect UI. We don't specialize in one thing. We specialize in solving things that don't have an existing solution.
 
-### We solve what others can't
-
-When your project hits a wall — a native API that Flutter can't reach, an ONNX model that won't fit on device, a trace pipeline that drops spans under load, a speech engine that needs custom wake-word detection — our team of elite engineers steps in with solutions that work in production.
-
-### Trusted by 50+ enterprises
-
-Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran, BCC,** and dozens more across banking, manufacturing, energy, and public sector.
-
-### Need the impossible solved?
+Trusted by **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran, BCC,** and 50+ other enterprises across Europe.
 
 [Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
