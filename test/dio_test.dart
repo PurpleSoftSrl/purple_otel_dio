@@ -7,11 +7,9 @@ import 'package:test/test.dart';
 
 final class _MockAdapter implements HttpClientAdapter {
   final int _status;
-  final String _body;
   final Map<String, String> _requestHeaders = {};
 
-  _MockAdapter({int status = 200, String body = 'ok'})
-      : _status = status, _body = body;
+  _MockAdapter({int status = 200}) : _status = status;
 
   Map<String, String> get requestHeaders => _requestHeaders;
 
