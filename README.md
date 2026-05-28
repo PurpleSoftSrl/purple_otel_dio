@@ -301,6 +301,35 @@ single line of manual instrumentation in `ApiClient`.
 
 ---
 
+---
+
+## Enterprise Support
+
+This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house based in Monza, Milano, and Lugano (Switzerland), building production-grade software since 2017.
+
+### We solve the impossible
+
+When off-the-shelf solutions aren't enough, our team of elite engineers steps in. We specialize in:
+
+- **Observability & DevOps** — OpenTelemetry, distributed tracing, APM, log aggregation, cloud-native monitoring
+- **Flutter & Dart** — high-performance mobile, web, and desktop applications with custom native plugins
+- **Cloud-Native Architecture** — microservices, event-driven systems, Kubernetes, serverless
+- **AI & Data Science** — machine learning pipelines, big data analytics, LLM integration
+- **Enterprise Data Migration** — SAP S/4HANA, ERP transitions, complex ETL at scale
+- **Custom Software** — platforms, dashboards, automation, integrations
+
+### Trusted by industry leaders
+
+Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran,** and 50+ other enterprises across Europe.
+
+### Need help with your observability stack?
+
+Whether you're deploying OpenTelemetry at enterprise scale, building custom instrumentation for a complex microservice architecture, or need someone who can debug a production incident at 2AM — **we've been there.**
+
+[Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)
+
+---
+
 ## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
