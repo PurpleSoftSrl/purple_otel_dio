@@ -1,8 +1,10 @@
 name: purple_otel_dio
-description: OpenTelemetry auto-instrumentation for Dio HTTP client — auto-spans, trace context injection.
+description: OpenTelemetry auto-instrumentation for Dio HTTP client — automatic CLIENT spans with W3C trace context.
 version: 0.1.0
-license: Apache-2.0
-publish_to: none
+repository: https://xamapps.visualstudio.com/AI/_git/purple_otel_dio
+homepage: https://pub.dev/packages/purple_otel_dio
+topics: [opentelemetry, dio, http, tracing, flutter]
+license: AGPL-3.0
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
