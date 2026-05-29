@@ -303,26 +303,58 @@ single line of manual instrumentation in `ApiClient`.
 
 ---
 
-
-
-
-
-
+---
 
 
 ---
 
 ## Built by PurpleSoft
 
-**[PurpleSoft S.r.l.](https://www.purplesoft.io)** — software house in Monza, Milano, Lugano (CH). Since 2017.
+**[PurpleSoft S.r.l.](https://www.purplesoft.io)** — software house with offices in Monza, Milano, and Lugano (Switzerland). Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail.
 
 > We build what doesn't exist yet.
 
-We ship mobile apps that control physical payment terminals. We deploy AI models that run on phones instead of servers. We migrate ERP systems moving billions in transactions without downtime. We build observability pipelines that survive Black Friday traffic. We write Flutter plugins for hardware that doesn't have one yet.
+### What we do
 
-**Our engineering team has built 10 proprietary SDKs shipped to production**, including post-quantum cryptography implementations using NIST-approved algorithms, a unified payments abstraction over PayPal, Stripe, SumUp, Nexi, Google Pay, Apple Pay, Bitcoin, Ethereum, and 100+ cryptocurrencies, and an OAuth authentication layer spanning Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, and GitHub.
+We don't "consult and recommend." We ship. Our engineers write production code across every layer of the stack — from bare-metal native bindings to cloud-native infrastructure, from machine learning pipelines to pixel-perfect mobile UI.
 
-**Our open-source portfolio** includes a complete OpenTelemetry SDK for Dart/Flutter, enterprise structured logging, on-device AI inference with ONNX runtime bindings and Litert/MediaPipe integration, speech recognition and neural text-to-speech across 6 platforms, and cross-platform mobile tooling — including the official Flutter plugin for SumUp POS terminals. We contribute to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum smart contract infrastructure.
+We ship mobile apps that control physical payment terminals via Flutter. We deploy ONNX AI models that run on phones instead of servers. We migrate enterprise ERP systems from SAP ECC to SAP S/4HANA without downtime, moving billions in financial transactions. We build distributed tracing pipelines that survive Black Friday traffic without dropping a single span. We write Flutter plugins for hardware that doesn't have one yet, and Dart packages for observability infrastructure the ecosystem was missing.
+
+---
+
+### Our proprietary SDK portfolio
+
+When off-the-shelf solutions fall short, we build our own. These 10 SDKs are battle-tested across our enterprise projects:
+
+| SDK | Capability |
+|-----|-----------|
+| **Purple.Authentication** | OAuth 2.0 / OpenID Connect — Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, GitHub, and custom identity providers |
+| **Purple.Authorization** | Role-based access control with granular permissions and custom policy rules |
+| **Purple.Security** | Post-quantum cryptography using NIST-approved algorithms (CRYSTALS-Kyber, CRYSTALS-Dilithium) |
+| **Purple.Payments** | Unified payment abstraction — PayPal, Stripe, SumUp, Nexi, GestPay, Google Pay, Apple Pay, Bitcoin, Ethereum, and 100+ cryptocurrencies |
+| **Purple.Notification** | Cross-platform push notifications — iOS (APNs) and Android (FCM) with server-side batching |
+| **Purple.Email** | Transactional email and marketing automation — SMTP, SendGrid, MailChimp, MailUp, Sendinblue, MailGun |
+| **Purple.Bot** | Multi-platform chatbot integration — Telegram, WhatsApp Business API, Facebook Messenger |
+| **Purple.Storage** | Cloud storage abstraction — Azure Blob Storage, Amazon S3, Google Cloud Storage, local filesystem |
+| **Purple.Media** | Media processing — compression, format conversion, deduplication, client-side encryption |
+| **Purple.Localization** | Multi-platform i18n — Flutter, Angular, VanillaJS, .NET with centralized translation management |
+
+---
+
+### Open source we maintain and contribute to
+
+We don't just consume open source — we build and maintain it:
+
+| Area | What we ship |
+|------|-------------|
+| **Observability** | Complete OpenTelemetry SDK for Dart/Flutter (traces, logs, metrics, OTLP export), enterprise structured logger with file rotation, auto-instrumentation for HTTP, Dio, and Flutter |
+| **On-device AI** | ONNX runtime bindings for Dart with GPU acceleration, Litert/MediaPipe integration for LLM inference, neural text-to-speech (Kokoro engine) across all 6 Flutter platforms |
+| **Speech** | Speech-to-text for Android and Windows, wake-word detection, Italian dialect support |
+| **Payments** | Official Flutter plugin for SumUp POS terminals (card-present payments, NFC, receipt printing) |
+| **Platform** | iOS Live Activities & Dynamic Island, high-performance in-memory cache with journaling, OpenAPI → Dart code generator |
+| **Upstream** | Active contributions to HuggingFace Transformers, Microsoft Model Context Protocol SDK (official C# implementation), Ethereum EIP-2535 Diamond standard, ESP-OPUS audio codec |
+
+---
 
 ### Microsoft Partner since 2018 · SumUp Partner · Dell Partner
 
@@ -339,9 +371,12 @@ We ship mobile apps that control physical payment terminals. We deploy AI models
 > Your project can't wait. We've solved these exact problems for companies you know.
 > Let's solve them for you.
 
-[🌐 **purplesoft.io**](https://www.purplesoft.io) &nbsp;·&nbsp; [📧 **developers@purplesoft.io**](mailto:developers@purplesoft.io) &nbsp;·&nbsp; [📞 **+39 0362 148 3978**](tel:+3903621483978) &nbsp;·&nbsp; [💼 **LinkedIn**](https://www.linkedin.com/company/purplesoft-srl) &nbsp;·&nbsp; [🐙 **GitHub**](https://github.com/purplesoftsrl)## License
+[🌐 **purplesoft.io**](https://www.purplesoft.io) &nbsp;·&nbsp; [📧 **developers@purplesoft.io**](mailto:developers@purplesoft.io) &nbsp;·&nbsp; [📞 **+39 0362 148 3978**](tel:+3903621483978) &nbsp;·&nbsp; [💼 **LinkedIn**](https://www.linkedin.com/company/purplesoft-srl) &nbsp;·&nbsp; [🐙 **GitHub**](https://github.com/purplesoftsrl)
+
+## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
