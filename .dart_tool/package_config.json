@@ -177,13 +177,13 @@
     },
     {
       "name": "purple_otel_api",
-      "rootUri": "../../purple_otel_api",
+      "rootUri": "file:///C:/Users/TizianoCristini/AppData/Local/Pub/Cache/hosted/pub.dev/purple_otel_api-0.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "purple_otel_sdk",
-      "rootUri": "../../purple_otel_sdk",
+      "rootUri": "file:///C:/Users/TizianoCristini/AppData/Local/Pub/Cache/hosted/pub.dev/purple_otel_sdk-0.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },

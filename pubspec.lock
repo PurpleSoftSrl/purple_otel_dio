@@ -236,16 +236,18 @@ packages:
   purple_otel_api:
     dependency: transitive
     description:
-      path: "../purple_otel_api"
-      relative: true
-    source: path
+      name: purple_otel_api
+      sha256: "39fed98d1d1ad04c6efd558e62465e7d2abb8ea0f387b45cfba7afa22a43664c"
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.0"
   purple_otel_sdk:
     dependency: "direct main"
     description:
-      path: "../purple_otel_sdk"
-      relative: true
-    source: path
+      name: purple_otel_sdk
+      sha256: de27a2fed3beb491a9272ce205dac63dc30c44253123cbf1012ef49a8252cfd4
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.0"
   shelf:
     dependency: transitive
