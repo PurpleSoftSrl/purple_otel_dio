@@ -305,21 +305,48 @@ single line of manual instrumentation in `ApiClient`.
 
 
 
-## Enterprise Support
 
-This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house based in Monza, Milano, and Lugano (Switzerland). Since 2017, we've been building the kind of software that other companies call "impossible."
+## Built by PurpleSoft
 
-We write the code that runs on factory floors and in boardrooms. We ship Flutter apps that control physical payment terminals, deploy ONNX models to mobile devices that fit in your pocket, and build distributed tracing pipelines that survive Black Friday traffic without dropping a single span. We've migrated ERP systems for multinational manufacturers, trained speech models that understand Italian dialects, and designed caching layers that make API latency disappear.
+This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house with offices in Monza, Milano, and Lugano (Switzerland). Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail.
 
-When a Flutter plugin doesn't exist for the hardware you need, we write it. When your OpenTelemetry collector falls over under load, we fix it. When your AI model needs to run on a phone instead of a server, we make it fit.
+### What makes us different
 
-Our team spans the full stack — from bare-metal native code to cloud-native infrastructure, from machine learning pipelines to pixel-perfect UI. We don't specialize in one thing. We specialize in solving things that don't have an existing solution.
+We don't build "yet another library." We build the infrastructure that other companies run their business on. When a Fortune 500 manufacturer needs to migrate their SAP ERP without downtime, they call us. When a bank needs distributed tracing that survives Black Friday traffic, they call us. When a startup needs an AI pipeline that runs on-device instead of in the cloud, they call us.
 
-Trusted by **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran, BCC,** and 50+ other enterprises across Europe.
+We write the code that runs on factory floors and in boardrooms. We ship Flutter apps that control physical payment terminals, deploy ONNX models to phones, build speech engines that understand Italian dialects, and design observability pipelines that catch production issues before customers notice.
+
+### We don't just consult. We ship.
+
+| What you need | What we deliver |
+|---|---|
+| OpenTelemetry at enterprise scale | Production-hardened SDK with 256 automated tests, red-team audited, zero crashes under edge cases |
+| Flutter apps with custom native code | Platform-specific plugins for hardware, payments, AI, and sensors |
+| AI/ML on mobile | ONNX model deployment, on-device LLMs, speech recognition and synthesis |
+| Production incidents at 2 AM | Engineers who debug distributed systems, not just read stack traces |
+| Architecture that survives growth | Cloud-native, event-driven, Kubernetes, microservices designed for scale |
+
+### The numbers speak for themselves
+
+- **50+ enterprise clients** across Europe — banking, manufacturing, energy, public sector
+- **8+ years** building production software without excuses
+- **500+ open-source packages** downloaded monthly by developers worldwide
+- **Microsoft Partner** since 2022
+
+### Clients who trust us
+
+ABB · Intesa Sanpaolo · Tenaris · Reply · Aubay · Prometeia · Comune di Milano · FIMAP · Altran · BCC
+
+### Your project can't wait until next sprint
+
+If you're reading this README, you're probably already deep into an observability implementation. You might be hitting limits with the existing Dart OTel SDK, struggling with bundle size in your Flutter app, or trying to figure out why your traces disappear under load.
+
+We've solved these exact problems for companies you know. Let's solve them for you.
 
 [Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
