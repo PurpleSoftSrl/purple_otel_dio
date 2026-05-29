@@ -14,7 +14,8 @@ final class OtelDioInterceptor extends Interceptor {
     );
 
     span.setAttribute('http.method', AttributeValue.string(options.method));
-    span.setAttribute('http.url', AttributeValue.string(options.uri.toString()));
+    span.setAttribute(
+        'http.url', AttributeValue.string(options.uri.toString()));
     span.setAttribute('http.host', AttributeValue.string(options.uri.host));
 
     final carrier = <String, String>{};
@@ -34,7 +35,8 @@ final class OtelDioInterceptor extends Interceptor {
     final span = response.requestOptions.extra['otel_span'] as Span?;
     if (span == null) return handler.next(response);
 
-    span.setAttribute('http.status_code', AttributeValue.int(response.statusCode ?? 0));
+    span.setAttribute(
+        'http.status_code', AttributeValue.int(response.statusCode ?? 0));
 
     if (response.statusCode != null && response.statusCode! >= 500) {
       span.setStatus(SpanStatus.error('HTTP ${response.statusCode}'));
