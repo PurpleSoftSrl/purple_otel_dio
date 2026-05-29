@@ -309,31 +309,40 @@ single line of manual instrumentation in `ApiClient`.
 
 
 
+
+---
+
 ## Built by PurpleSoft
 
-This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house with offices in Monza, Milano, and Lugano (Switzerland).
+**[PurpleSoft S.r.l.](https://www.purplesoft.io)** — software house in Monza, Milano, Lugano (CH). Since 2017.
 
-Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail. We write the code that runs on factory floors and in boardrooms — mobile apps that control payment terminals, AI models deployed to phones, ERP migrations that move billions in transactions without downtime, observability pipelines that survive Black Friday traffic.
+> We build what doesn't exist yet.
 
-### We Hack the Future — across every layer of the stack
+We ship mobile apps that control physical payment terminals. We deploy AI models that run on phones instead of servers. We migrate ERP systems moving billions in transactions without downtime. We build observability pipelines that survive Black Friday traffic. We write Flutter plugins for hardware that doesn't have one yet.
 
-**We build what doesn't exist yet.** Our team has shipped 10 proprietary SDKs covering authentication (OAuth with Google, Apple, Microsoft, Facebook, GitHub), post-quantum cryptography (NIST-approved algorithms), push notifications, transactional email (SMTP, SendGrid, MailChimp, MailGun, Sendinblue), chatbot integration (Telegram, WhatsApp, Facebook Messenger), cloud storage abstraction (Azure, S3, Google Cloud), media processing (compression, dedup, client-side encryption), and unified payments (PayPal, Stripe, SumUp, Nexi, Google Pay, Apple Pay, Bitcoin, Ethereum, 100+ cryptocurrencies). We've built commercial products from gym management platforms to private sale event systems to mobile Azure DevOps clients used by 160+ developers.
+**Our engineering team has built 10 proprietary SDKs shipped to production**, including post-quantum cryptography implementations using NIST-approved algorithms, a unified payments abstraction over PayPal, Stripe, SumUp, Nexi, Google Pay, Apple Pay, Bitcoin, Ethereum, and 100+ cryptocurrencies, and an OAuth authentication layer spanning Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, and GitHub.
 
-**Our open-source ecosystem** spans full-stack observability (OpenTelemetry SDK, enterprise structured logging), on-device AI inference (ONNX runtime bindings, Litert/MediaPipe integration), speech recognition and synthesis across 6 platforms, and cross-platform mobile tooling. We contribute to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum smart contract infrastructure.
-
-**We master Flutter, .NET, Angular, React, C#, TypeScript, ASP.NET Core, and SQL.** Our designers work in Adobe Suite, Autodesk Suite, Figma, and Rhino 3D.
+**Our open-source portfolio** includes a complete OpenTelemetry SDK for Dart/Flutter, enterprise structured logging, on-device AI inference with ONNX runtime bindings and Litert/MediaPipe integration, speech recognition and neural text-to-speech across 6 platforms, and cross-platform mobile tooling — including the official Flutter plugin for SumUp POS terminals. We contribute to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum smart contract infrastructure.
 
 ### Microsoft Partner since 2018 · SumUp Partner · Dell Partner
 
-Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Comune di Milano, BCC, FIMAP, Alten, Altran, Prometeia,** and 50+ other enterprises across banking, manufacturing, energy, and the public sector.
+---
 
-### Your project can't wait
+### Trusted by
 
-If you're reading this README, you're probably deep into an implementation. You might be hitting limits with existing tools or trying to figure out why your observability pipeline drops data under load. We've solved these exact problems for companies you know. Let's solve them for you.
+`ABB` `Intesa Sanpaolo` `Tenaris` `Reply` `Aubay` `Comune di Milano` `BCC` `FIMAP` `Alten` `Altran` `Prometeia` `illimity` `Be Shaping the Future` `DS Group` `NVALUE` `Inoptim` `Docflow` `P&C`
 
-[Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)## License
+*and 40+ other enterprises across banking, manufacturing, energy, and public sector.*
+
+---
+
+> Your project can't wait. We've solved these exact problems for companies you know.
+> Let's solve them for you.
+
+[🌐 **purplesoft.io**](https://www.purplesoft.io) &nbsp;·&nbsp; [📧 **developers@purplesoft.io**](mailto:developers@purplesoft.io) &nbsp;·&nbsp; [📞 **+39 0362 148 3978**](tel:+3903621483978) &nbsp;·&nbsp; [💼 **LinkedIn**](https://www.linkedin.com/company/purplesoft-srl) &nbsp;·&nbsp; [🐙 **GitHub**](https://github.com/purplesoftsrl)## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
