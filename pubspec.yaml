@@ -1,6 +1,6 @@
 name: purple_otel_dio
 description: OpenTelemetry auto-instrumentation for Dio HTTP client — automatic CLIENT spans with W3C trace context.
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/purplesoftsrl/purple_otel_dio
 homepage: https://github.com/purplesoftsrl/purple_otel_dio
 topics: [opentelemetry, dio, http, tracing]
