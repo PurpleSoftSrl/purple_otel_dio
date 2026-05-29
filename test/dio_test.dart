@@ -7,11 +7,9 @@ import 'package:test/test.dart';
 
 final class _MockAdapter implements HttpClientAdapter {
   final int _status;
-  final String _body;
   final Map<String, String> _requestHeaders = {};
 
-  _MockAdapter({int status = 200, String body = 'ok'})
-      : _status = status, _body = body;
+  _MockAdapter({int status = 200}) : _status = status;
 
   Map<String, String> get requestHeaders => _requestHeaders;
 
@@ -21,7 +19,8 @@ final class _MockAdapter implements HttpClientAdapter {
     Stream<Uint8List>? requestStream,
     Future<void>? cancelFuture,
   ) async {
-    _requestHeaders.addAll(options.headers.map((k, v) => MapEntry(k, v.toString())));
+    _requestHeaders
+        .addAll(options.headers.map((k, v) => MapEntry(k, v.toString())));
     return ResponseBody.fromString('{"ok":true}', _status, headers: {
       Headers.contentTypeHeader: [Headers.jsonContentType],
     });
@@ -38,6 +37,7 @@ final class _CaptureExporter implements SpanExporter {
     exported.addAll(items);
     return ExportResult.success();
   }
+
   @override
   Future<void> shutdown() async {}
   @override
