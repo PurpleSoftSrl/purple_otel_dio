@@ -307,6 +307,8 @@ single line of manual instrumentation in `ApiClient`.
 
 ---
 
+---
+
 
 ---
 
@@ -318,21 +320,23 @@ single line of manual instrumentation in `ApiClient`.
 
 ### The sectors we dominate
 
-**Fintech & Payments.** We design payment orchestration layers that abstract Stripe, SumUp, Nexi, Axerve, PayPal, Google Pay, and Apple Pay behind a single API — plus Bitcoin, Ethereum, and 100+ cryptocurrencies. Our engineers have built POS terminal firmware, fiscal receipt systems compliant with Italian *Fattura Elettronica* regulations, and cash register management platforms processing millions of transactions.
+**Conversational AI & Voice Assistants.** We design and ship end-to-end AI voice platforms — from the physical device (ESP32 with custom Opus codec firmware) to the cloud backend (.NET 10, ASP.NET Core, Blazor Server) to the mobile companion app (Flutter with BLE). Our multi-agent LLM architecture orchestrates 8 specialized agents (conversation, memory, content enrichment, exploration, and more) with a multi-layered memory system spanning graph, episodic, and working memory — including adaptive forgetting, poison detection via z-score outlier analysis, and automatic episodic-to-semantic compression. We deploy DeepSeek V4 for primary inference at 53x lower cost than GPT-4o, with multi-provider fallback across OpenAI, Anthropic, Gemini, and Ollama. Our scientific research pipeline uses a 4-scorer verification chain (NLI dual-label, cross-model consistency, evidence retrieval, hallucination detection) with consensus voting to ensure factual accuracy. We design RAG pipelines with HNSW vector search (1024-dim embeddings), hybrid full-text + semantic RRF, sharded K-means search, and training-free chunk pre-filtering.
 
-**Cybersecurity & Identity.** We ship post-quantum cryptography implementations using NIST-standardized algorithms (ML-KEM, ML-DSA, SLH-DSA on .NET 10). Our authentication infrastructure integrates SPID (Italian public digital identity), OAuth 2.0/OpenID Connect across Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, and GitHub. We build digital signature platforms with PKCS#11 hardware security module support, handling the full envelope lifecycle from document preparation to legally binding execution.
+**Fintech & Payments.** We build payment orchestration layers that abstract Stripe, SumUp, Nexi, Axerve, PayPal, Google Pay, and Apple Pay behind a single API — plus Bitcoin, Ethereum, and 100+ cryptocurrencies. Our engineers have shipped POS terminal firmware, fiscal receipt systems compliant with Italian *Fattura Elettronica* regulations, and cash register management platforms processing millions of transactions.
 
-**Artificial Intelligence & On-Device ML.** We deploy ONNX models to phones via custom Dart runtime bindings with GPU acceleration. We integrate Litert and MediaPipe for on-device LLM inference. We build neural text-to-speech engines that run across all 6 Flutter platforms — from Android to Web — and speech recognition systems with Italian dialect support.
+**Cybersecurity & Identity.** We ship post-quantum cryptography implementations using NIST-standardized algorithms on .NET 10 (ML-KEM, ML-DSA, SLH-DSA) — the cryptography standard that will replace RSA and ECC. Our authentication infrastructure integrates SPID (Italian public digital identity), OAuth 2.0/OpenID Connect across Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, and GitHub. We build digital signature platforms with PKCS#11 hardware security module support, handling the full envelope lifecycle from document preparation to legally binding execution.
 
-**Enterprise SaaS & Cloud-Native Architecture.** We architect, build, and operate platforms at enterprise scale. Our internal monorepo spans 239 .NET 10 projects with consistent Azure Pipelines CI/CD. We design multi-engine database abstraction layers (PostgreSQL, MySQL, Microsoft SQL Server) with automated schema-to-code generation that produces complete ASP.NET API controllers. Our notification engine handles 6 channels (email, push, SMS, chat, webhook, in-app) with DNS-based email validation and template management across MailChimp and Stripo.
+**Artificial Intelligence & On-Device ML.** We deploy ONNX models to phones via custom Dart runtime bindings with GPU acceleration. We integrate Litert and MediaPipe for on-device LLM inference. We build neural text-to-speech engines that run across all 6 Flutter platforms — from Android to Web — and speech recognition systems with Italian dialect support. We design content intelligence pipelines that ingest, enrich via LLM, embed (1024-dim vectors), and serve via hybrid semantic search — at scale: 28,000 items enriched, 30,000 embeddings generated, 14 pipelines with 3 stages each (scrape → enrich → embed). DeepSeek V4 Pro processes content enrichment at a fraction of the cost of GPT-4o.
 
-**IoT & Embedded Systems.** We build certificate authority infrastructure that generates and manages device TLS certificates with challenge-response verification. We orchestrate IoT device fleets. We write native Flutter plugins for hardware that doesn't have one yet — from payment terminals to audio codecs.
+**Enterprise SaaS & Cloud-Native Architecture.** We architect, build, and operate platforms at enterprise scale. Our .NET 10 monorepo spans 239 C# projects with consistent Azure Pipelines CI/CD, 297 test suites passing, zero build errors. We design multi-engine database abstraction layers (PostgreSQL + pgvector, MySQL, Microsoft SQL Server) with automated schema-to-code generation that produces complete ASP.NET API controllers. Our notification engine handles 6 channels (email, push, SMS, chat, webhook, in-app) with DNS-based email validation and template management. Our audio SDK provides unified TTS/STT across ElevenLabs, DashScope, DeepGram, Whisper, and Windows Speech with Opus/OGG codec support and real-time streaming.
 
-**Observability & DevOps.** Full-stack observability is not a side project. It's the foundation we build our client solutions on. We ship a complete OpenTelemetry SDK (traces, logs, metrics, W3C propagation, OTLP export), enterprise structured logging with file rotation, and auto-instrumentation for HTTP, Dio, and Flutter navigation — all red-team audited with 256 automated tests.
+**IoT & Embedded Systems.** We write ESP32 firmware targeting ESP-IDF v5.4 with 21 FreeRTOS tasks, I²S audio pipelines, Opus codec integration, and a 6-state WiFi state machine with validated recovery paths. We build certificate authority infrastructure that generates and manages device TLS certificates with challenge-response verification. We write native Flutter plugins for hardware that doesn't have one yet — from payment terminals to BLE device provisioning to audio codecs.
+
+**Observability & DevOps.** Full-stack observability is the foundation we build our client solutions on. We ship a complete OpenTelemetry SDK for Dart/Flutter (traces, logs, metrics, W3C propagation, OTLP export), enterprise structured logging with file rotation, and auto-instrumentation for HTTP, Dio, and Flutter navigation — all red-team audited with 256 automated tests.
 
 ### The technologies we master
 
-Our engineering team works across the full stack — from bare-metal to pixel-perfect UI. We write production code in **C# (.NET 10)**, **Dart**, **TypeScript**, **JavaScript**, **SQL**, **C/C++**, **Python**, and **Rust**. Our frameworks of choice are **ASP.NET Core**, **Flutter**, **Angular**, and **React**. We operate **Microsoft Azure** (Key Vault, Blob Storage, Resource Manager, IoT Hub), deploy on **NGINX**, and manage **PostgreSQL**, **MySQL**, and **Microsoft SQL Server** at scale. Our CI/CD runs on **Azure Pipelines**. We contribute upstream to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum EIP-2535 infrastructure.
+Our engineering team works across the full stack — from ESP32 firmware in C to cloud-native backends in C# (.NET 10) to cross-platform mobile apps in Dart/Flutter. We write production code in **C# (.NET 10)**, **Dart**, **TypeScript**, **JavaScript**, **C**, **C++**, **Python**, and **Rust**. Our frameworks of choice are **ASP.NET Core**, **Blazor Server**, **Flutter**, **Angular**, and **React**. Our AI stack spans **DeepSeek**, **OpenAI**, **Anthropic Claude**, **Google Gemini**, **Ollama**, **Microsoft Semantic Kernel**, and **Microsoft Agents.AI**. We operate **Microsoft Azure** (Key Vault, Blob Storage, Resource Manager, IoT Hub, Virtual Machines), deploy on **NGINX**, and manage **PostgreSQL + pgvector**, **MySQL**, **Microsoft SQL Server**, and **ESP-IDF v5.4** at scale. We use **EF Core** with **Npgsql** for data access, **FFmpeg** for audio processing, **LVGL** for embedded displays, and **BLE** for device provisioning. Our CI/CD runs on **Azure Pipelines**.
 
 ### Microsoft Partner since 2018 · SumUp Partner · Dell Partner
 
@@ -354,6 +358,7 @@ Our engineering team works across the full stack — from bare-metal to pixel-pe
 ## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
