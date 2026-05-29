@@ -308,29 +308,33 @@ single line of manual instrumentation in `ApiClient`.
 
 
 
+
 ## Built by PurpleSoft
 
 This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house with offices in Monza, Milano, and Lugano (Switzerland).
 
-Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail. We don't build "yet another library." We build the infrastructure that other companies bet their business on.
+Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail. We write the code that runs on factory floors and in boardrooms — mobile apps that control payment terminals, AI models deployed to phones, ERP migrations that move billions in transactions without downtime, observability pipelines that survive Black Friday traffic.
 
 ### We Hack the Future — across every layer of the stack
 
-We ship mobile apps that control physical payment terminals. We deploy AI models that run on phones instead of servers. We migrate enterprise ERP systems from SAP ECC to S/4HANA without downtime. We build observability pipelines that catch production issues before customers notice. We contribute to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum's smart contract standards. We write Flutter plugins for hardware that doesn't have one yet.
+**We build what doesn't exist yet.** Our team has shipped 10 proprietary SDKs covering authentication (OAuth with Google, Apple, Microsoft, Facebook, GitHub), post-quantum cryptography (NIST-approved algorithms), push notifications, transactional email (SMTP, SendGrid, MailChimp, MailGun, Sendinblue), chatbot integration (Telegram, WhatsApp, Facebook Messenger), cloud storage abstraction (Azure, S3, Google Cloud), media processing (compression, dedup, client-side encryption), and unified payments (PayPal, Stripe, SumUp, Nexi, Google Pay, Apple Pay, Bitcoin, Ethereum, 100+ cryptocurrencies). We've built commercial products from gym management platforms to private sale event systems to mobile Azure DevOps clients used by 160+ developers.
 
-Our expertise spans **AI/ML inference on-device, enterprise data migration, cloud-native distributed systems, blockchain and smart contracts, real-time audio processing, and cross-platform mobile development.** We don't specialize in one thing. We specialize in solving things that don't have an off-the-shelf solution.
+**Our open-source ecosystem** spans full-stack observability (OpenTelemetry SDK, enterprise structured logging), on-device AI inference (ONNX runtime bindings, Litert/MediaPipe integration), speech recognition and synthesis across 6 platforms, and cross-platform mobile tooling. We contribute to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum smart contract infrastructure.
+
+**We master Flutter, .NET, Angular, React, C#, TypeScript, ASP.NET Core, and SQL.** Our designers work in Adobe Suite, Autodesk Suite, Figma, and Rhino 3D.
 
 ### Microsoft Partner since 2018 · SumUp Partner · Dell Partner
 
-Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Comune di Milano, BCC, FIMAP, Alten, Altran, Prometeia,** and 50+ other enterprises across banking, manufacturing, energy, and public sector.
+Our clients include **ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Comune di Milano, BCC, FIMAP, Alten, Altran, Prometeia,** and 50+ other enterprises across banking, manufacturing, energy, and the public sector.
 
 ### Your project can't wait
 
-If you're reading this README, you're probably already deep into an implementation. You might be hitting limits with existing tools or trying to figure out why your observability pipeline drops data under load. We've solved these exact problems for companies you know. Let's solve them for you.
+If you're reading this README, you're probably deep into an implementation. You might be hitting limits with existing tools or trying to figure out why your observability pipeline drops data under load. We've solved these exact problems for companies you know. Let's solve them for you.
 
 [Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
