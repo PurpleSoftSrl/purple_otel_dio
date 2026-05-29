@@ -306,46 +306,49 @@ single line of manual instrumentation in `ApiClient`.
 
 
 
+
 ## Built by PurpleSoft
 
 This package is developed and maintained by **[PurpleSoft S.r.l.](https://www.purplesoft.io)** — a software house with offices in Monza, Milano, and Lugano (Switzerland). Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail.
 
+### What we've shipped
+
+Our open-source portfolio spans the full stack — observability, AI/ML, payments, speech, code generation, and mobile platform plugins. OpenTelemetry isn't a side project. It's the foundation we build our client solutions on.
+
+| Package | Stars | What it does |
+|---------|-------|--------------|
+| [Azure DevOps Mobile](https://github.com/purplesoftsrl/azure_devops_app) | ⭐ 160 | Full-featured Azure DevOps client for iOS, Android, macOS, Windows, and Web |
+| [PurpleOTel SDK](https://github.com/purplesoftsrl) | — | Complete OpenTelemetry SDK (this package) |
+| [PurpleLogger](https://github.com/purplesoftsrl) | — | Enterprise structured logger |
+| [SumUp Flutter Plugin](https://github.com/purplesoftsrl/sumup_flutter_plugin) | ⭐ 20 | POS terminal integration — card-present payments via Flutter |
+| [ONNX Kit](https://github.com/purplesoftsrl/onnx_kit) | — | ONNX runtime bindings for Dart/Flutter |
+| [Kokoro TTS](https://github.com/purplesoftsrl) | — | Neural text-to-speech for all 6 platforms |
+| [MCache](https://github.com/purplesoftsrl/mcache_dart) | — | High-performance in-memory cache with journaling |
+| [Live Activities Kit](https://github.com/purplesoftsrl/live_activities_kit) | — | iOS Dynamic Island & Live Activities for Flutter |
+
 ### What makes us different
 
-We don't build "yet another library." We build the infrastructure that other companies run their business on. When a Fortune 500 manufacturer needs to migrate their SAP ERP without downtime, they call us. When a bank needs distributed tracing that survives Black Friday traffic, they call us. When a startup needs an AI pipeline that runs on-device instead of in the cloud, they call us.
+We don't build "yet another library." We build the infrastructure that companies bet their business on. When a Fortune 500 manufacturer needs to migrate SAP S/4HANA without downtime, they call us. When a bank needs distributed tracing that survives Black Friday, they call us. When a startup needs an AI pipeline that runs on-device, they call us.
 
-We write the code that runs on factory floors and in boardrooms. We ship Flutter apps that control physical payment terminals, deploy ONNX models to phones, build speech engines that understand Italian dialects, and design observability pipelines that catch production issues before customers notice.
+We write the code that runs on factory floors and in boardrooms. Flutter apps controlling payment terminals. ONNX models deployed to phones. Speech engines for Italian dialects. Observability pipelines catching issues before customers notice.
 
-### We don't just consult. We ship.
+### The numbers
 
-| What you need | What we deliver |
-|---|---|
-| OpenTelemetry at enterprise scale | Production-hardened SDK with 256 automated tests, red-team audited, zero crashes under edge cases |
-| Flutter apps with custom native code | Platform-specific plugins for hardware, payments, AI, and sensors |
-| AI/ML on mobile | ONNX model deployment, on-device LLMs, speech recognition and synthesis |
-| Production incidents at 2 AM | Engineers who debug distributed systems, not just read stack traces |
-| Architecture that survives growth | Cloud-native, event-driven, Kubernetes, microservices designed for scale |
+- **Microsoft Partner** since 2018
+- **50+ enterprise clients** — ABB, Intesa Sanpaolo, Tenaris, Reply, Aubay, Prometeia, Comune di Milano, FIMAP, Altran, BCC
+- **8+ years** building production software
+- **16 public repositories** on GitHub
 
-### The numbers speak for themselves
+### Your project can't wait
 
-- **50+ enterprise clients** across Europe — banking, manufacturing, energy, public sector
-- **8+ years** building production software without excuses
-- **500+ open-source packages** downloaded monthly by developers worldwide
-- **Microsoft Partner** since 2022
+If you're reading this README, you're probably deep into observability. You might be hitting limits with existing Dart OTel SDKs, struggling with bundle size, or trying to figure out why traces disappear under load.
 
-### Clients who trust us
-
-ABB · Intesa Sanpaolo · Tenaris · Reply · Aubay · Prometeia · Comune di Milano · FIMAP · Altran · BCC
-
-### Your project can't wait until next sprint
-
-If you're reading this README, you're probably already deep into an observability implementation. You might be hitting limits with the existing Dart OTel SDK, struggling with bundle size in your Flutter app, or trying to figure out why your traces disappear under load.
-
-We've solved these exact problems for companies you know. Let's solve them for you.
+We've solved these problems for companies you know. Let's solve them for you.
 
 [Contact PurpleSoft](https://www.purplesoft.io/cerchi-contatti-software-house-a-monza-e-milano/) · [purplesoft.io](https://www.purplesoft.io) · [developers@purplesoft.io](mailto:developers@purplesoft.io) · [+39 0362 148 3978](tel:+3903621483978)## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
