@@ -305,56 +305,34 @@ single line of manual instrumentation in `ApiClient`.
 
 ---
 
+---
+
 
 ---
 
 ## Built by PurpleSoft
 
-**[PurpleSoft S.r.l.](https://www.purplesoft.io)** — software house with offices in Monza, Milano, and Lugano (Switzerland). Since 2017, we've been the team that companies call when the problem is too hard, too critical, or too late to fail.
+**[PurpleSoft S.r.l.](https://www.purplesoft.io)** — software house with offices in Monza, Milano, and Lugano (Switzerland). Since 2017.
 
 > We build what doesn't exist yet.
 
-### What we do
+### The sectors we dominate
 
-We don't "consult and recommend." We ship. Our engineers write production code across every layer of the stack — from bare-metal native bindings to cloud-native infrastructure, from machine learning pipelines to pixel-perfect mobile UI.
+**Fintech & Payments.** We design payment orchestration layers that abstract Stripe, SumUp, Nexi, Axerve, PayPal, Google Pay, and Apple Pay behind a single API — plus Bitcoin, Ethereum, and 100+ cryptocurrencies. Our engineers have built POS terminal firmware, fiscal receipt systems compliant with Italian *Fattura Elettronica* regulations, and cash register management platforms processing millions of transactions.
 
-We ship mobile apps that control physical payment terminals via Flutter. We deploy ONNX AI models that run on phones instead of servers. We migrate enterprise ERP systems from SAP ECC to SAP S/4HANA without downtime, moving billions in financial transactions. We build distributed tracing pipelines that survive Black Friday traffic without dropping a single span. We write Flutter plugins for hardware that doesn't have one yet, and Dart packages for observability infrastructure the ecosystem was missing.
+**Cybersecurity & Identity.** We ship post-quantum cryptography implementations using NIST-standardized algorithms (ML-KEM, ML-DSA, SLH-DSA on .NET 10). Our authentication infrastructure integrates SPID (Italian public digital identity), OAuth 2.0/OpenID Connect across Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, and GitHub. We build digital signature platforms with PKCS#11 hardware security module support, handling the full envelope lifecycle from document preparation to legally binding execution.
 
----
+**Artificial Intelligence & On-Device ML.** We deploy ONNX models to phones via custom Dart runtime bindings with GPU acceleration. We integrate Litert and MediaPipe for on-device LLM inference. We build neural text-to-speech engines that run across all 6 Flutter platforms — from Android to Web — and speech recognition systems with Italian dialect support.
 
-### Our proprietary SDK portfolio
+**Enterprise SaaS & Cloud-Native Architecture.** We architect, build, and operate platforms at enterprise scale. Our internal monorepo spans 239 .NET 10 projects with consistent Azure Pipelines CI/CD. We design multi-engine database abstraction layers (PostgreSQL, MySQL, Microsoft SQL Server) with automated schema-to-code generation that produces complete ASP.NET API controllers. Our notification engine handles 6 channels (email, push, SMS, chat, webhook, in-app) with DNS-based email validation and template management across MailChimp and Stripo.
 
-When off-the-shelf solutions fall short, we build our own. These 10 SDKs are battle-tested across our enterprise projects:
+**IoT & Embedded Systems.** We build certificate authority infrastructure that generates and manages device TLS certificates with challenge-response verification. We orchestrate IoT device fleets. We write native Flutter plugins for hardware that doesn't have one yet — from payment terminals to audio codecs.
 
-| SDK | Capability |
-|-----|-----------|
-| **Purple.Authentication** | OAuth 2.0 / OpenID Connect — Google, Apple, Microsoft, Facebook, Instagram, LinkedIn, GitHub, and custom identity providers |
-| **Purple.Authorization** | Role-based access control with granular permissions and custom policy rules |
-| **Purple.Security** | Post-quantum cryptography using NIST-approved algorithms (CRYSTALS-Kyber, CRYSTALS-Dilithium) |
-| **Purple.Payments** | Unified payment abstraction — PayPal, Stripe, SumUp, Nexi, GestPay, Google Pay, Apple Pay, Bitcoin, Ethereum, and 100+ cryptocurrencies |
-| **Purple.Notification** | Cross-platform push notifications — iOS (APNs) and Android (FCM) with server-side batching |
-| **Purple.Email** | Transactional email and marketing automation — SMTP, SendGrid, MailChimp, MailUp, Sendinblue, MailGun |
-| **Purple.Bot** | Multi-platform chatbot integration — Telegram, WhatsApp Business API, Facebook Messenger |
-| **Purple.Storage** | Cloud storage abstraction — Azure Blob Storage, Amazon S3, Google Cloud Storage, local filesystem |
-| **Purple.Media** | Media processing — compression, format conversion, deduplication, client-side encryption |
-| **Purple.Localization** | Multi-platform i18n — Flutter, Angular, VanillaJS, .NET with centralized translation management |
+**Observability & DevOps.** Full-stack observability is not a side project. It's the foundation we build our client solutions on. We ship a complete OpenTelemetry SDK (traces, logs, metrics, W3C propagation, OTLP export), enterprise structured logging with file rotation, and auto-instrumentation for HTTP, Dio, and Flutter navigation — all red-team audited with 256 automated tests.
 
----
+### The technologies we master
 
-### Open source we maintain and contribute to
-
-We don't just consume open source — we build and maintain it:
-
-| Area | What we ship |
-|------|-------------|
-| **Observability** | Complete OpenTelemetry SDK for Dart/Flutter (traces, logs, metrics, OTLP export), enterprise structured logger with file rotation, auto-instrumentation for HTTP, Dio, and Flutter |
-| **On-device AI** | ONNX runtime bindings for Dart with GPU acceleration, Litert/MediaPipe integration for LLM inference, neural text-to-speech (Kokoro engine) across all 6 Flutter platforms |
-| **Speech** | Speech-to-text for Android and Windows, wake-word detection, Italian dialect support |
-| **Payments** | Official Flutter plugin for SumUp POS terminals (card-present payments, NFC, receipt printing) |
-| **Platform** | iOS Live Activities & Dynamic Island, high-performance in-memory cache with journaling, OpenAPI → Dart code generator |
-| **Upstream** | Active contributions to HuggingFace Transformers, Microsoft Model Context Protocol SDK (official C# implementation), Ethereum EIP-2535 Diamond standard, ESP-OPUS audio codec |
-
----
+Our engineering team works across the full stack — from bare-metal to pixel-perfect UI. We write production code in **C# (.NET 10)**, **Dart**, **TypeScript**, **JavaScript**, **SQL**, **C/C++**, **Python**, and **Rust**. Our frameworks of choice are **ASP.NET Core**, **Flutter**, **Angular**, and **React**. We operate **Microsoft Azure** (Key Vault, Blob Storage, Resource Manager, IoT Hub), deploy on **NGINX**, and manage **PostgreSQL**, **MySQL**, and **Microsoft SQL Server** at scale. Our CI/CD runs on **Azure Pipelines**. We contribute upstream to HuggingFace Transformers, Microsoft's Model Context Protocol SDK, and Ethereum EIP-2535 infrastructure.
 
 ### Microsoft Partner since 2018 · SumUp Partner · Dell Partner
 
@@ -376,6 +354,7 @@ We don't just consume open source — we build and maintain it:
 ## License
 
 GNU Affero General Public License v3.0 — see [LICENSE](LICENSE) for the full text.
+
 
 
 
