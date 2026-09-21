@@ -18,6 +18,17 @@ final class OtelDioInterceptor extends Interceptor {
         'http.url', AttributeValue.string(options.uri.toString()));
     span.setAttribute('http.host', AttributeValue.string(options.uri.host));
 
+    // Stable OTel HTTP client semantic conventions (v1.23+), emitted alongside
+    // the legacy http.* keys above during the transition to the stable spec.
+    span.setAttribute(
+        'http.request.method', AttributeValue.string(options.method));
+    span.setAttribute(
+        'url.full', AttributeValue.string(options.uri.toString()));
+    span.setAttribute('url.scheme', AttributeValue.string(options.uri.scheme));
+    span.setAttribute(
+        'server.address', AttributeValue.string(options.uri.host));
+    span.setAttribute('server.port', AttributeValue.int(options.uri.port));
+
     final carrier = <String, String>{};
     final ctx = Context.root.withValue(spanContextKey, span);
     W3CTraceContextPropagator.inject(ctx, carrier);
@@ -37,6 +48,8 @@ final class OtelDioInterceptor extends Interceptor {
 
     span.setAttribute(
         'http.status_code', AttributeValue.int(response.statusCode ?? 0));
+    span.setAttribute('http.response.status_code',
+        AttributeValue.int(response.statusCode ?? 0));
 
     if (response.statusCode != null && response.statusCode! >= 500) {
       span.setStatus(SpanStatus.error('HTTP ${response.statusCode}'));
