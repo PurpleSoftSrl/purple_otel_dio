@@ -33,7 +33,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  purple_otel_dio: ^0.1.0
+  purple_otel_dio: ^0.1.6
   purple_otel_sdk: ^0.1.0   # required peer — provides Tracer, Span, exporters
   dio: ^5.7.0                 # the HTTP client being instrumented
 ```
